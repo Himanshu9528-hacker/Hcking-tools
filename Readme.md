@@ -50,3 +50,29 @@ Vulnerabilities:
 This project is for educational purposes only.
 The author is not responsible for any misuse of this tool.
 Use only on networks you own or have permission to test.
+
+1.Quick Scan
+python3 Scan.py -t 192.168.126.2 --type quick
+
+2.Full Scan
+python3 Scan.py -t 192.168.126.2 --type full
+
+3.OS & Service Detection Scan
+python3 Scan.py -t 192.168.126.2 --type os-service
+
+3.Top Ports Scan
+python3 Scan.py -t 192.168.126.2 --type top-ports
+
+4.Custom Ports Scan
+python3 Scan.py -t 192.168.126.2 --type custom --ports 21,22,80,443
+
+5.Custom Flags Scan
+python3 Scan.py -t 192.168.126.2 --flags "-A -O"
+
+5.Without Confirmation
+python3 Scan.py -t 192.168.126.2 --type full --no-confirm
+⚡ Tip:
+192.168.126.2 ko apne target IP ya domain se replace karo.
+Agar tumko Scan.py --help likhoge, to tumhe saare available options ka list mil jayega:
+
+python3 Scan.py --help
