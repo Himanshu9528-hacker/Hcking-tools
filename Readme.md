@@ -51,6 +51,9 @@ This project is for educational purposes only.
 The author is not responsible for any misuse of this tool.
 Use only on networks you own or have permission to test.
 
+--------------HOW TO USE SCAN.PY--------------
+([-t mean -target]"hmme kis per target krna chahte hai agr aapke pass ip addres hai to ip address de jaise ki niche de rakha hai agr aapko ip address nhi pta hai to ip addess ki jagah naam dalde site ka jaise ki  - google.com , microsoft.com etc")
+
 1.Quick Scan
 python3 Scan.py -t 192.168.126.2 --type quick
 
